@@ -1,0 +1,44 @@
+.thanks {
+    margin-top: 50px;
+}
+
+.thanks__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__title {
+    font-size: clamp(2.234rem, -0.0012rem + 10.2167vw, 3rem);
+    font-weight: 800;
+    text-align: center;
+}
+
+.thanks__pre-block {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 50px;
+    font-size: 24px;
+}
+
+.thanks__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.thanks__nick {
+    font-weight: 400;
+    transition: 0.2s all;
+    &:hover{
+        font-weight: 450;
+        text-shadow: 0 0 5px gray;
+    }
+}

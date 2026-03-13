@@ -1,0 +1,27 @@
+.greeting {
+    background: #020024;
+    background: linear-gradient(38deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 100%;
+    height: calc(100vh - 75px + 10px);
+    border: black solid;
+    border-width: 0 0 10px 0;
+}
+
+.greeting__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    color: white;
+    text-align: center;
+}
+
+.greeting__title {
+    font-size: clamp(2.154rem, -0.0002rem + 9.8467vw, 4rem);
+    font-weight: 800;
+}
+
+.greeting__desc {
+    font-size: clamp(1rem, 0.5rem + 2.2857vw, 1.5rem);
+}
